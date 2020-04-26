@@ -9,7 +9,7 @@ module.exports = {
     publicPath: '/'
   },
   resolve: {
-    extensions: ['.js', 'jsx']
+    extensions: ['.js', '.jsx']
   },
   devServer: {
     historyApiFallback: true
@@ -17,7 +17,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.jsx?/,
+        test: /\.jsx?$/,
         loader: 'babel-loader'
       }
     ]

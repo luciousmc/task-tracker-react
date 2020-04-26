@@ -1,0 +1,38 @@
+{
+  "name": "task_tracker_react",
+  "version": "1.0.0",
+  "description": "## A basic React App that allows users to keep track of tasks. Integrates Node.js and Redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "dev": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luciousmc/task-tracker-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luciousmc/task-tracker-react/issues"
+  },
+  "homepage": "https://github.com/luciousmc/task-tracker-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "concurrently": "^4.0.1",
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.18.4",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-command": "^0.4.2",
+    "webpack-dev-server": "^3.1.7"
+  }
+}
